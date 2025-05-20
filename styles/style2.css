@@ -62,8 +62,8 @@ body {
 
 .divisor {
     margin-top: 0.625rem;
-    width: 100%; /* A altura pode ser ajustada */
-    background-color: var(--cor-terciaria); /* Cor da linha */
+    width: 100%;
+    background-color: var(--cor-terciaria);
     padding: 0.03rem;
 }
 
