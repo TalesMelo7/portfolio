@@ -150,8 +150,8 @@ body {
     padding: 0.75%;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    font-weight: 400px;
+    font-size: 1.25rem;
+    font-weight: 25rem;
 }
 
 @media (max-width: 1200px) {
@@ -174,5 +174,75 @@ body {
 
     .foto-tales {
         padding: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .body {
+        overflow-x: hidden;
+    }
+
+    .cabecalho__menu {
+        padding: 5%;
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .cabecalho__menu__link {
+        margin: 0;
+        font-size: 1rem;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+        gap: 1.5rem;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .apresentacao__conteudo__texto {
+        width: 100%;
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .apresentacao__links {
+        gap: 1rem;
+    }
+
+    .apresentacao__links__subtitulo {
+        font-size: 1.25rem;
+        text-align: center;
+    }
+
+    .foto-tales {
+        width: 100%;
+        padding: 0;
+    }
+
+    .apresentacao__conteudo__subtitulo {
+        text-align: center;
+    }
+
+    .tecnologias__conteudo {
+        padding: 0 1.4rem;
+    }
+
+    .tecnologias__conteudo__logos {
+        width: 15%;
+    }
+
+    .rodape {
+        font-size: 1rem;
+        padding: 1rem 0.5rem;
     }
 }
