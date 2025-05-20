@@ -101,10 +101,9 @@ body {
 }
 
 .apresentacao__links{
-    display: flex;
-    flex-direction: column;
+    display: flex;  
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
     gap: 2rem;
 }
 
@@ -112,13 +111,14 @@ body {
     font-family: var(--fonte-primaria);
     font-weight: 25rem;
     font-size: 1.5rem;
+    padding: 0 19%;
 }
 
 .apresentacao__links__link{
     display: flex;
     justify-content: center;
     gap: 1rem;
-    width: 23.625rem;
+    width: 45%;
     text-align: center;
     border: 0.125rem solid var(--cor-terciaria);
     border-radius: 0.5rem;
