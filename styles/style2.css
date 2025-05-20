@@ -183,9 +183,8 @@ body {
     }
 
     .cabecalho__menu {
-        padding: 5%;
         align-items: center;
-        gap: 2.5rem;
+        gap: 0.5rem;
     }
 
     .cabecalho__menu__link {
