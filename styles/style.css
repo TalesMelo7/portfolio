@@ -221,7 +221,7 @@ body {
     }
 
     .apresentacao__links__link {
-        width: 90%;
+        width: 100%;
         font-size: 1.1rem;
         padding: 1rem 0;
         flex-wrap: wrap;
@@ -289,7 +289,7 @@ body {
     }
 
     .apresentacao__links__link {
-        width: 80%;
+        width: 100%;
         padding: 1rem;
         font-size: 1.3rem;
     }
